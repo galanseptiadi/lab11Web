@@ -42,7 +42,8 @@ Tambahkan kode berikut di dalam Routes.php
 Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan
 perintah berikut.
 ![image](https://user-images.githubusercontent.com/101730390/172675266-1ac97bf5-99fc-4bda-8f75-8f4d7a691b24.png)
-![image](https://user-images.githubusercontent.com/101730390/172675847-40f26bf2-bdff-4977-a561-e35b6e823f98.png)
+![image](https://user-images.githubusercontent.com/101730390/174103202-a9d9d180-3b1a-487a-80d7-a0d975132b77.png)
+
 
 Membuat Controller
 Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama page.php
@@ -56,7 +57,8 @@ autoroute dapat mengubah nilai variabelnya. Untuk menonaktifkan ubah nilai true
 menjadi false.
 ![image](https://user-images.githubusercontent.com/101730390/172677035-15511078-6ae7-4484-aa9a-4a3241297a7a.png)
 ![image](https://user-images.githubusercontent.com/101730390/172677507-8a56c166-fa7c-411f-b30a-6df695edc06e.png)
-![image](https://user-images.githubusercontent.com/101730390/172677645-b6f7b6e3-d1e2-43e5-8572-63b1d39acf48.png)
+![image](https://user-images.githubusercontent.com/101730390/174104625-940cfa0a-481f-45db-a32e-8a2bbff1809b.png)
+
 
 Membuat View
 Selanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file
@@ -77,3 +79,85 @@ footer.php
 
 ![0](https://user-images.githubusercontent.com/101730390/172699382-7bd04d14-4217-4548-82e7-c8812bfd8d91.jpeg)
 
+Membuat Database dan Tabel
+![image](https://user-images.githubusercontent.com/101730390/174098665-25b2b1b1-ab92-42b2-aa04-740b933427cb.png)
+
+
+
+
+Membuat konfigurasi untuk menghubungkan dengan database server melalui file .env
+![image](https://user-images.githubusercontent.com/101730390/174098940-f42bd5c2-b748-4ef1-b46e-1b9db1f689a2.png)
+
+
+Membuat file baru dengan nama ArtikelModel.php
+![image](https://user-images.githubusercontent.com/101730390/174099211-735a57be-92c1-4441-88d0-bf018a7d3c70.png)
+
+
+Membuat file baru dengan nama Artikel.php
+![image](https://user-images.githubusercontent.com/101730390/174099390-c4c66fba-f4f0-4d87-a002-321d7dac2110.png)
+
+Membuat file baru dengan nama index.php
+![image](https://user-images.githubusercontent.com/101730390/174099863-9605e522-2397-4517-b38b-ed9b25e99df5.png)
+
+
+Cek hasil coodingan melalui link URL : http://localhost:8080/artikel
+8
+
+mambahkan beberapa data pada database dan cek hasil nya
+![image](https://user-images.githubusercontent.com/101730390/174105629-73e33aad-a0f3-46c3-98f9-3f4f8b624a98.png)
+
+
+10
+
+Tambahkan fungsi baru pada Controller Artikel dengan nama view().
+11
+
+Membuat file baru dengan nama detail.php
+12
+
+Tambahkan routing untuk artikel detail
+13
+
+Cek hasil coodingan melalui link URL : http://localhost:8080/artikel/artikel-kedua
+14
+
+Buat method baru pada Controller Artikel dengan nama admin_index()
+15
+
+Membuat file baru dengan nama admin_index.php
+16
+
+17
+
+Membuat file baru dengan nama admin_header.php
+18
+
+Membuat file baru dengan nama admin_footer.php
+19
+
+Tambahkan routing untuk menu admin
+20
+
+Cek hasil coodingan melalui link URL : http://localhost:8080/admin/artikel
+22
+
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama add()
+23
+
+Membuat file baru dengan nama form_add.php
+24
+
+Cek hasil coodingan melalui link URL : form_add.php
+25
+
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit()
+26
+
+Kemudian buat view untuk form tambah dengan nama form_edit.php
+27
+
+Cek hasil coodingan melalui link URL : http://localhost:8080/admin/artikel/edit/1
+28
+
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete()
+29
