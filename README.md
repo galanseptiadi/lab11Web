@@ -79,6 +79,7 @@ footer.php
 
 ![0](https://user-images.githubusercontent.com/101730390/172699382-7bd04d14-4217-4548-82e7-c8812bfd8d91.jpeg)
 
+# PRAKTIKUM 12
 Membuat Database dan Tabel
 ![image](https://user-images.githubusercontent.com/101730390/174098665-25b2b1b1-ab92-42b2-aa04-740b933427cb.png)
 
@@ -180,4 +181,36 @@ Cek hasil coodingan melalui link URL : http://localhost:8080/admin/artikel/edit/
 
 Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete()
 ![image](https://user-images.githubusercontent.com/101730390/174335875-2263ccfe-0364-45e5-8278-3458d0b55d71.png)
+
+# PRAKTIKUM 13
+Membuat Tabel User
+![image](https://user-images.githubusercontent.com/101730390/174476199-0f8de458-be73-4c3b-bc89-03e39961f75d.png)
+
+Membuat Model User
+Selanjutnya adalah membuat Model untuk memproses data Login. Buat file baru pada
+direktori app/Models dengan nama UserModel.php
+![image](https://user-images.githubusercontent.com/101730390/174476537-24c7dff9-9b09-43b4-9a7a-902b8fe9fd28.png)
+
+
+Membuat Controller User
+Buat Controller baru dengan nama User.php pada direktori app/Controllers.
+Kemudian tambahkan method index() untuk menampilkan daftar user, dan method
+login() untuk proses login.
+![image](https://user-images.githubusercontent.com/101730390/174476695-7b733a7c-e9f9-4e0a-8d53-554312043177.png)
+
+![image](https://user-images.githubusercontent.com/101730390/174476702-798d54e3-0c5f-417c-b13c-12486cd9b06b.png)
+
+
+Membuat View Login
+Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file
+baru dengan nama login.php.
+![image](https://user-images.githubusercontent.com/101730390/174476848-eacdc2b0-e5f1-406b-b178-9d08080ebd80.png)
+![image](https://user-images.githubusercontent.com/101730390/174476858-13ddf280-b367-426d-9d59-1022e0cf74aa.png)
+
+
+
+
+
+
+
 
