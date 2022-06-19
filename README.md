@@ -204,13 +204,34 @@ login() untuk proses login.
 Membuat View Login
 Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file
 baru dengan nama login.php.
-![image](https://user-images.githubusercontent.com/101730390/174476848-eacdc2b0-e5f1-406b-b178-9d08080ebd80.png)
-![image](https://user-images.githubusercontent.com/101730390/174476858-13ddf280-b367-426d-9d59-1022e0cf74aa.png)
+![image](https://user-images.githubusercontent.com/101730390/174490559-04c6a7fb-480f-464d-af1f-aa2feb73c539.png)
+![image](https://user-images.githubusercontent.com/101730390/174490580-1228096a-2159-4ee0-a9b9-488840dff17d.png)
 
 
 
+Membuat Database Seeder
+Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul
+login, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat
+database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:
+![image](https://user-images.githubusercontent.com/101730390/174490268-9dd4dc11-7ad5-4af3-8079-6ea8c145d1f0.png)
 
+Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori
+/app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:
+![image](https://user-images.githubusercontent.com/101730390/174490302-10c4a4e5-df74-478e-8f7c-64a6935cd375.png)
 
+Selanjutnya buka kembali CLI dan ketik perintah berikut:
+![image](https://user-images.githubusercontent.com/101730390/174490370-d9a5d725-da1a-4c6d-8d3a-d7d2e34c277a.png)
 
+Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
+![image](https://user-images.githubusercontent.com/101730390/174490396-aac48416-1d05-4fff-8f1c-9b801a24a8dc.png)
 
+Menambahkan Auth Filter
+Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php
+pada direktori app/Filters.
+![image](https://user-images.githubusercontent.com/101730390/174490416-c504fba6-32dc-47a1-9767-568466c75744.png)
 
+Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+![image](https://user-images.githubusercontent.com/101730390/174490449-7b43e73f-85e8-4557-b21d-887b14cf8be9.png)
+
+Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya.
+![image](https://user-images.githubusercontent.com/101730390/174490482-5ef2ada7-df15-416e-ad5a-85dc2e72e4d2.png)
