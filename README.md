@@ -235,3 +235,11 @@ Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
 
 Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya.
 ![image](https://user-images.githubusercontent.com/101730390/174490482-5ef2ada7-df15-416e-ad5a-85dc2e72e4d2.png)
+
+Uji Coba Login
+Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
+![image](https://user-images.githubusercontent.com/101730390/175334489-d8d9227c-5fde-4e5a-98ec-bb1fe27d41f8.png)
+
+Fungsi Logout
+Tambahkan method logout pada Controller User seperti berikut:
+![image](https://user-images.githubusercontent.com/101730390/175335143-54d341cd-a909-44c2-91c5-d86c5e5d8e89.png)
