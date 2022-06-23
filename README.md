@@ -243,3 +243,6 @@ Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
 Fungsi Logout
 Tambahkan method logout pada Controller User seperti berikut:
 ![image](https://user-images.githubusercontent.com/101730390/175335143-54d341cd-a909-44c2-91c5-d86c5e5d8e89.png)
+
+hasil browsernya :
+![image](https://user-images.githubusercontent.com/101730390/175339813-81b17a1f-999e-45f7-bef7-024d7ccd4e65.png)
