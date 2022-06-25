@@ -247,3 +247,32 @@ Tambahkan method logout pada Controller User seperti berikut:
 
 hasil browsernya :
 ![image](https://user-images.githubusercontent.com/101730390/175339813-81b17a1f-999e-45f7-bef7-024d7ccd4e65.png)
+
+# PRAKTIKUM 14
+Membuat Pagination
+![image](https://user-images.githubusercontent.com/101730390/175779603-de7c0f1d-d3b1-4468-ac65-684c2916cda2.png)
+Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut
+dibawah deklarasi tabel data.
+![image](https://user-images.githubusercontent.com/101730390/175779657-968f0e8a-a49f-4b95-a34f-64d6ede359ba.png)
+![image](https://user-images.githubusercontent.com/101730390/175779669-8086026c-7cbc-419c-94b4-a2dffa4f5ec3.png)
+
+Membuat Pencarian
+Pencarian data digunakan untuk memfilter data.
+![image](https://user-images.githubusercontent.com/101730390/175779845-5672e191-b077-4a55-b8d9-f17655c69d1e.png)
+Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form
+pencarian sebelum deklarasi tabel seperti berikut:
+![image](https://user-images.githubusercontent.com/101730390/175779879-2851b4a7-5fec-47ff-8f94-0df60da91af1.png)
+![image](https://user-images.githubusercontent.com/101730390/175780200-e065bb50-04da-4177-ba93-7e6640445f62.png)
+
+![image](https://user-images.githubusercontent.com/101730390/175779900-e05cc653-eba6-410d-9002-36d7bd9594c2.png)
+
+Upload Gambar
+Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller
+Artikel, sesuaikan kode pada method add seperti berikut:
+![image](https://user-images.githubusercontent.com/101730390/175780701-6c42a304-71bf-4b78-af74-8f44f8dba68f.png)
+
+Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti
+berikut.
+![image](https://user-images.githubusercontent.com/101730390/175780729-c73bd36b-d4a7-434b-a8db-92e083f4ae90.png)
+Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
+![image](https://user-images.githubusercontent.com/101730390/175780750-4555ac56-8d53-4760-bbdc-126c1b105545.png)
